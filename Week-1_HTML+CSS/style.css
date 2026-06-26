@@ -277,6 +277,10 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 500px) {
+    nav{
+        margin: 0;
+        position: static;
+    }
     nav ul li {
         display: block;
     }
